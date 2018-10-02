@@ -1,12 +1,29 @@
 
-public class datastring {
+import java.util.Scanner;
+public class datastring{
 
-	/**
-	 * @param args
-	 */
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+	Scanner sc = new Scanner(System.in);
+
+	//mendaklarasikan variabel
+	String nama1,nama2,kamu;
+
+	//menganisialisasi variabel
+	nama1="yuli";
+	nama2="yuliana";
+
+	//melakukan operasi menggunakan variabel
+	kamu=nama1+nama2;
+
+	//Menampilkan Nilai dari Variabel 
+	System.out.println(kamu);
+
+	//Melakukan inisialisasi variabel melalui keyboard/input melalui keyboard
+	String D=sc.next();
+	System.out.println("nama kamu adalah "+D);
+	}
+
 
 	}
 
-}
+
